@@ -20,6 +20,7 @@ This module includes the following functions:
   * playerStandings() - returns a list of tuples (id, name, wins, matches) showing players and their win records, sorted by number of wins descending
   * reportMatch(winner, loser) - records the outcome of a single match between two players, inputs are the id numbers of the winner and loser, respectively
   * swissPairings() - returns a list of tuples indicating the pairs of players (id1, name1, id2, name2) for the next round of a match
+  * newTournament() - starts new tournament by removing all player and match records from the database
 
 Author
 ======
